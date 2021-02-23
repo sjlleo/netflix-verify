@@ -12,3 +12,7 @@ A script used to determine whether to watch native NetFlix movies / NetFlix可�
 > 这里演示IP实际地理位置与NF的IP库位置不相同的情况
 
 ![image1126583f0c05440f.png](https://img.leo.moe/images/2021/02/23/image1126583f0c05440f.png)
+
+### 懒人一键运行包
+
+`wget https://github.com/sjlleo/netflix-verify/releases/download/1.0/nf-1.0-linux-amd64 && chmod +x nf-1.0-linux-amd64 && mv nf-1.0-linux-amd64 nf && ./nf`
