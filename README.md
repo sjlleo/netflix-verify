@@ -1,9 +1,13 @@
 # netflix-verify
 A script used to determine whether to watch native NetFlix movies / NetFlix可看地区检测脚本
 
-Tips: 不知道为啥被人传到了梨园上，有点受宠若惊
+声明: 不知道为啥被人传到了梨园上，真的不是我投的稿，建议通知一下梨园直接把条投稿删了吧
 
-亦推荐[@CoiaPrant @zerocloud的Shell版本](https://github.com/Netflixxp/NF)
+推荐直接使用[@CoiaPrant @zerocloud的Shell版本](https://t.me/freeresource/2744)
+
+Netflix解锁测试程序 v3.0
+请先自行安装curl
+命令: curl -sSL "https://www.zeroteam.top/files/netflix.sh" | bash
 
 ## 使用方法
 #### 1、部署 `golang` 环境，执行 `go run nf.go` 运行本小应用
