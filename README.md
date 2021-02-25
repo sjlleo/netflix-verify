@@ -1,6 +1,6 @@
 # netflix-verify
 
-流媒体NetFlix检测脚本，使用Go语言编写
+流媒体NetFlix解锁检测脚本，使用Go语言编写
 
 ## 鸣谢
 
