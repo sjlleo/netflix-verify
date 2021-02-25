@@ -30,7 +30,7 @@
 
 `wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/1.1/nf_1.1_linux_amd64 && chmod +x nf && clear && ./nf`
 
-## 效果延时图
+## 效果演示图
 
 这里演示IP实际地理位置与NF的IP库位置不相同的情况
 
