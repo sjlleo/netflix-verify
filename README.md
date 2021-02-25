@@ -1,5 +1,6 @@
 # netflix-verify
-A script used to determine whether to watch native NetFlix movies / NetFlix可看地区检测脚本
+
+流媒体NetFlix检测脚本 / A script used to determine whether to watch native NetFlix movies
 
 ## 鸣谢
 
