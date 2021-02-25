@@ -1,6 +1,10 @@
 # netflix-verify
 A script used to determine whether to watch native NetFlix movies / NetFlix可看地区检测脚本
 
+## 鸣谢
+
+1. 感谢 @CoiaPrant 指出对于地域检测更简便的方法
+
 ## 功能实现
 
 - [X] 解锁情况判断
