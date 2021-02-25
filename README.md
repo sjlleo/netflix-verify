@@ -33,7 +33,7 @@
 
 #### 2、懒人一键运行包（使用编译好的二进制文件执行本小程序）
 
-`wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/1.1/nf_1.1_linux_amd64 && chmod +x nf && clear && ./nf`
+`wget -O nf https://cdn.jsdelivr.net/gh/XmJwit/netflix-verify/nf_1.1_linux_amd64 && chmod +x nf && clear && ./nf`
 
 ## 效果演示图
 
