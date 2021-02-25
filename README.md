@@ -1,7 +1,7 @@
 # netflix-verify
 A script used to determine whether to watch native NetFlix movies / NetFlix可看地区检测脚本
 
-推荐直接使用 [@CoiaPrant @zerocloud的Shell版本](https://github.com/CoiaPrant/Netflix_Unlock_Information)
+如果你有双栈需求，可以考虑使用 [@CoiaPrant的Shell版本](https://github.com/CoiaPrant/Netflix_Unlock_Information)
 
 ## 使用方法
 #### 1、部署 `golang` 环境，执行 `go run nf.go` 运行本小应用
