@@ -1,6 +1,6 @@
 # netflix-verify
 
-流媒体NetFlix检测脚本 / A script used to determine whether to watch native NetFlix movies
+流媒体NetFlix检测脚本，使用Go语言编写
 
 ## 鸣谢
 
