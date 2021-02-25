@@ -32,10 +32,7 @@
 
 ## 效果演示图
 
-这里演示IP实际地理位置与NF的IP库位置不相同的情况
-
-![image1126583f0c05440f.png](https://img.leo.moe/images/2021/02/23/image1126583f0c05440f.png)
-
+![f015c50b55fa4f97a87eae0babcb3cc7.png](https://img.leo.moe/images/2021/02/25/f015c50b55fa4f97a87eae0babcb3cc7.png)
 
 ## @CoiaPrant の Linux Shell脚本
 
