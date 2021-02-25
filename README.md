@@ -5,7 +5,7 @@ A script used to determine whether to watch native NetFlix movies / NetFlix可�
 
 - [X] 解锁情况判断
 - [X] 地域信息显示
-- [ ] 支持双栈
+- [ ] 双栈检测 (可能永远不支持)
 
 
 ## 相关名词解释
@@ -23,14 +23,20 @@ A script used to determine whether to watch native NetFlix movies / NetFlix可�
 
 #### 2、使用编译好的二进制文件执行本小程序
 
-### 懒人一键运行包
+#### 懒人一键运行包
 
 `wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/1.1/nf_1.1_linux_amd64 && chmod +x nf && clear && ./nf`
 
-### 效果延时图
+## 效果延时图
 
 这里演示IP实际地理位置与NF的IP库位置不相同的情况
 
 ![image1126583f0c05440f.png](https://img.leo.moe/images/2021/02/23/image1126583f0c05440f.png)
 
+
+## @CoiaPrant の Linux Shell脚本
+
+这是一个由 @CoiaPrant 开发的shell脚本哦，支持双栈的检测！
+
+https://github.com/CoiaPrant/Netflix_Unlock_Information/
 
