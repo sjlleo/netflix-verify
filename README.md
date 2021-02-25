@@ -1,9 +1,9 @@
 # netflix-verify
 A script used to determine whether to watch native NetFlix movies / NetFlix可看地区检测脚本
 
-如果你有双栈（IPV4+IPV6)需求，可以考虑使用 [@CoiaPrant的Shell版本](https://github.com/CoiaPrant/Netflix_Unlock_Information)
+如果您有双栈（IPV4+IPV6）测试需求，可以考虑使用 [@CoiaPrant的Shell版本](https://github.com/CoiaPrant/Netflix_Unlock_Information)
 
-如果您的服务商同时提供IPV4/IPV6，测试时可能会更偏向于使用IPV6进行测试，这些受限于Golang的HTTP接口的决策限制
+如果您的服务商同时提供IPV4/IPV6，在使用本脚本测试时可能会更偏向于使用IPV6进行测试，这些受限于Golang的HTTP接口的决策限制
 
 ## 使用方法
 #### 1、部署 `golang` 环境，执行 `go run nf.go` 运行本小应用
