@@ -31,7 +31,7 @@
 
 ## 效果演示图
 
-![07e78b00ec35bc32e9434be6937f585d.png](https://img.leo.moe/images/2021/02/26/07e78b00ec35bc32e9434be6937f585d.png)、
+![07e78b00ec35bc32e9434be6937f585d.png](https://img.leo.moe/images/2021/02/26/07e78b00ec35bc32e9434be6937f585d.png)
 
 ## @CoiaPrant の Linux Shell脚本
 
