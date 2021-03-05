@@ -42,9 +42,9 @@
 
 ![07e78b00ec35bc32e9434be6937f585d.png](https://img.leo.moe/images/2021/02/26/07e78b00ec35bc32e9434be6937f585d.png)
 
-## 第三方 Linux Shell脚本
+## 第三方 Linux Shell 脚本
 
-这是一个由 @CoiaPrant 开发的shell版本的脚本，支持双栈的检测
+此脚本为 CoiaPrant 所开发，支持双栈的检测
 
 https://github.com/CoiaPrant/Netflix_Unlock_Information/
 
