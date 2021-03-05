@@ -1,4 +1,4 @@
-# netflix-verify
+# NETFLIX-VERIFY
 
 流媒体NetFlix解锁检测脚本，使用Go语言编写。经目前的所有反馈，本脚本准确性为100%。
 
