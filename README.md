@@ -30,7 +30,7 @@
 
 2. 懒人一键运行包（使用编译好的二进制文件执行本小程序）
 
-**主下载链接:**
+**Github主站下载链接:**
   
   `wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/2.01/nf_2.01_linux_amd64 && chmod +x nf && clear && ./nf`
 
