@@ -44,7 +44,7 @@
 
 ## 第三方 Linux Shell 脚本
 
-此脚本为 CoiaPrant 所开发，支持双栈的检测
+此脚本为 CoiaPrant 所开发，支持双栈的检测，仅作收录
 
 https://github.com/CoiaPrant/Netflix_Unlock_Information/
 
