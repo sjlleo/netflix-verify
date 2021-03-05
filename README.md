@@ -34,7 +34,7 @@
   
   `wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/2.01/nf_2.01_linux_amd64 && chmod +x nf && clear && ./nf`
 
-**备用下载链接(此CDN支持IPV6网络):**
+**CDN下载链接(此CDN支持IPV6网络):**
 
   `wget -O nf https://cdn.jsdelivr.net/gh/sjlleo/netflix-verify/CDNRelease/nf_2.01_linux_amd64 && chmod +x nf && clear && ./nf`
 
