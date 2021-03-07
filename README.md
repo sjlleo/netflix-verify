@@ -32,11 +32,11 @@
 
 **Github主站下载链接:**
   
-  `wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/2.01/nf_2.01_linux_amd64 && chmod +x nf && clear && ./nf`
+  `wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/2.5/nf_2.5_linux_amd64 && chmod +x nf && clear && ./nf`
 
 **CDN下载链接(此CDN支持IPV6网络):**
 
-  `wget -O nf https://cdn.jsdelivr.net/gh/sjlleo/netflix-verify/CDNRelease/nf_2.01_linux_amd64 && chmod +x nf && clear && ./nf`
+  `wget -O nf https://cdn.jsdelivr.net/gh/sjlleo/netflix-verify/CDNRelease/nf_2.5_linux_amd64 && chmod +x nf && clear && ./nf`
 
 ## 效果演示图
 
