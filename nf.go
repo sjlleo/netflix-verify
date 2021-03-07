@@ -92,7 +92,7 @@ func UnblockTest(MoiveID int, ip string) bool {
 func ShellPrinter(Num int) {
 	switch Num {
 	case 0:
-		fmt.Println("** NetFlix 解锁检测小工具 By \033[1;36m@sjlleo\033[0m **")
+		fmt.Println("** NetFlix 解锁检测小工具 v2.5 By \033[1;36m@sjlleo\033[0m **")
 		break
 	case 1:
 		fmt.Println("\033[0;33mNetFlix不为您测试的出口IP提供服务\033[0m")
@@ -173,56 +173,81 @@ func main() {
 
 	ShellPrinter(0)
 
-	testURL := Netflix + strconv.Itoa(areaAvailableID)
+	// 拼接非自制剧的URL
+	testURL := Netflix + strconv.Itoa(NonSelfMadeAvailableID)
 	ipv4CountryCode := RequestIP(testURL, ipv4)
 	ipv6CountryCode := RequestIP(testURL, ipv6)
 
+	/***
+	 * 检查CountryCode返回值:
+	 * Error 代表该网络访问失败
+	 * Ban 代表无法解锁这个ID种类的影片
+	 * 此处如果显示值不为Error则都应该继续检测
+	***/
 	if !strings.Contains(ipv4CountryCode, "Error") {
+		//开启换行信号,在IPV4检测完毕后换行
 		NextLineSignal = true
 		ShellPrinter(3)
+		//如果反馈为Ban，那么进一步检测是否支持Netflix地区解锁
 		if strings.Contains(ipv4CountryCode, "Ban") {
-			ShellPrinter(1)
+			//检测该IP所在的地区是否支持NF
+			if UnblockTest(areaAvailableID, ipv4) {
+				//所在地区支持NF
+				ShellPrinter(2)
+				ShellPrinter(7)
+				//检测是否支持自制剧
+				if UnblockTest(SelfMadeAvailableID, ipv4) {
+					//支持自制剧
+					ShellPrinter(5)
+					ShellPrinter(8)
+				} else {
+					//不支持自制剧
+					ShellPrinter(6)
+				}
+				ShellPrinter(10)
+			} else {
+				//所在地区不支持NF
+				ShellPrinter(1)
+			}
+
 		} else {
+			//如果支持非自制剧的解锁，则直接跳过自制剧的解锁
 			ShellPrinter(2)
 			ShellPrinter(7)
-			if UnblockTest(SelfMadeAvailableID, ipv4) {
-				ShellPrinter(5)
-				ShellPrinter(8)
-				if UnblockTest(NonSelfMadeAvailableID, ipv4) {
-					ShellPrinter(9)
-					fmt.Println("\033[0;36m原生IP地域解锁信息：\033[1;36m" + FindCountry(ipv4CountryCode) + "区 NetFlix\033[0m")
-				} else {
-					ShellPrinter(10)
-				}
-			} else {
-				ShellPrinter(6)
-			}
+			ShellPrinter(5)
+			ShellPrinter(8)
+			ShellPrinter(9)
+			fmt.Println("\033[0;36m原生IP地域解锁信息：\033[1;36m" + FindCountry(ipv4CountryCode) + "区 NetFlix\033[0m")
 		}
 	}
 
 	if !strings.Contains(ipv6CountryCode, "Error") {
+		//如果存在在IPV4检测，那在其完毕后换行
 		if NextLineSignal {
 			fmt.Print("\n")
 		}
 		ShellPrinter(4)
 		if strings.Contains(ipv6CountryCode, "Ban") {
-			ShellPrinter(1)
+			if UnblockTest(areaAvailableID, ipv6) {
+				ShellPrinter(2)
+				ShellPrinter(7)
+				if UnblockTest(SelfMadeAvailableID, ipv6) {
+					ShellPrinter(5)
+					ShellPrinter(8)
+				} else {
+					ShellPrinter(6)
+				}
+				ShellPrinter(10)
+			} else {
+				ShellPrinter(1)
+			}
 		} else {
 			ShellPrinter(2)
 			ShellPrinter(7)
-			if UnblockTest(SelfMadeAvailableID, ipv6) {
-				ShellPrinter(5)
-				ShellPrinter(8)
-				if UnblockTest(NonSelfMadeAvailableID, ipv6) {
-					ShellPrinter(9)
-					fmt.Println("\033[0;36m原生IP地域解锁信息：\033[1;36m" + FindCountry(ipv6CountryCode) + "区 NetFlix\033[0m")
-				} else {
-					ShellPrinter(10)
-				}
-			} else {
-				ShellPrinter(6)
-			}
+			ShellPrinter(5)
+			ShellPrinter(8)
+			ShellPrinter(9)
+			fmt.Println("\033[0;36m原生IP地域解锁信息：\033[1;36m" + FindCountry(ipv6CountryCode) + "区 NetFlix\033[0m")
 		}
 	}
-
 }
