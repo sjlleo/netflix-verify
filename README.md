@@ -55,9 +55,19 @@
 
 ## 效果演示图
 
-![Script_Example](https://user-images.githubusercontent.com/13616352/110276139-7c1ae680-800d-11eb-89d5-6e4b896dc54c.png)
+### 简约模式
 
-![Script_Example2](https://user-images.githubusercontent.com/13616352/110276403-006d6980-800e-11eb-8b79-62c16ccfb653.png)
+![Lite Method](https://user-images.githubusercontent.com/13616352/110276737-c5b80100-800e-11eb-8281-b4c3c9bd63a0.png)
+
+
+![Lite Method2](https://user-images.githubusercontent.com/13616352/110276620-7e317500-800e-11eb-9a21-3800b9c687c5.png)
+
+### 发烧模式
+
+![Full Method](https://user-images.githubusercontent.com/13616352/110276768-d9636780-800e-11eb-9b10-3ada67402f94.png)
+
+
+![Full Method2](https://user-images.githubusercontent.com/13616352/110276684-a4efab80-800e-11eb-8e73-4facf417ab52.png)
 
 
 ## 第三方 Linux Shell 脚本
