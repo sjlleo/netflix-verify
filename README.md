@@ -34,17 +34,23 @@
 一般通俗意义上来说，需要能看非自制剧才算真正意义上的NF解锁
 
 ## 使用方法
+
+你的Netflix脚本你做主，在`2.51`版本中，提供了2种不同的模式，将显示完全不同的结果
+
+* 运行`./nf -method full`将专门为发烧友准备的利器，显示更全面的结果
+* 而普通用户当以缺省参数运行`./nf`或者是`./nf -method lite`将显示更轻量级的结果，显示更加友好
+
 1. 部署 `golang` 环境，执行 `go run nf.go` 运行本小应用
 
 2. 懒人一键运行包（使用编译好的二进制文件执行本小程序）
 
 **Github主站下载链接:**
   
-  `wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/2.5/nf_2.5_linux_amd64 && chmod +x nf && clear && ./nf`
+  `wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/2.51/nf_2.51_linux_amd64 && chmod +x nf && clear && ./nf`
 
 **CDN下载链接(此CDN支持IPV6网络):**
 
-  `wget -O nf https://cdn.jsdelivr.net/gh/sjlleo/netflix-verify/CDNRelease/nf_2.5_linux_amd64 && chmod +x nf && clear && ./nf`
+  `wget -O nf https://cdn.jsdelivr.net/gh/sjlleo/netflix-verify/CDNRelease/nf_2.51_linux_amd64 && chmod +x nf && clear && ./nf`
 
 ## 效果演示图
 
