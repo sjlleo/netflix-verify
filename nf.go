@@ -254,7 +254,7 @@ func main() {
 		}
 		ShellPrinter(4)
 		//如果反馈为Ban，那么进一步检测是否支持Netflix地区解锁
-		if strings.Contains(ipv4CountryCode, "Ban") {
+		if strings.Contains(ipv6CountryCode, "Ban") {
 			//检测该IP所在的地区是否支持NF
 			if UnblockTest(areaAvailableID, ipv6) {
 				//所在地区支持NF
