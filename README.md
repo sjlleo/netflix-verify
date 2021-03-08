@@ -51,7 +51,8 @@
 
 ### 简约模式
 
-![Lite Method](https://user-images.githubusercontent.com/13616352/110296883-ca3fe200-802d-11eb-84b9-d10839fc8abc.png)
+<img width="351" alt="Lite Method" src="https://user-images.githubusercontent.com/13616352/110296950-e479c000-802d-11eb-9837-e23392860b07.png">
+
 
 ![Lite Method2](https://user-images.githubusercontent.com/13616352/110276620-7e317500-800e-11eb-9a21-3800b9c687c5.png)
 
