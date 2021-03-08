@@ -54,7 +54,7 @@
 
 ## 效果演示图
 
-![07e78b00ec35bc32e9434be6937f585d.png](https://img.leo.moe/images/2021/02/26/07e78b00ec35bc32e9434be6937f585d.png)
+![Script_Example](https://user-images.githubusercontent.com/13616352/110276139-7c1ae680-800d-11eb-89d5-6e4b896dc54c.png)
 
 ## 第三方 Linux Shell 脚本
 
