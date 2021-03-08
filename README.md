@@ -53,8 +53,8 @@
 
 <img width="430" alt="Lite Method" src="https://user-images.githubusercontent.com/13616352/110296950-e479c000-802d-11eb-9837-e23392860b07.png">
 
+<img width="430" alt="Lite Method2" src="https://user-images.githubusercontent.com/13616352/110298285-67e7e100-802f-11eb-8ca8-7f7045cfddca.png">
 
-![Lite Method2](https://user-images.githubusercontent.com/13616352/110276620-7e317500-800e-11eb-9a21-3800b9c687c5.png)
 
 ### 发烧模式
 
