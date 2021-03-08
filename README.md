@@ -60,8 +60,8 @@
 
 ![Full Method](https://user-images.githubusercontent.com/13616352/110276768-d9636780-800e-11eb-9b10-3ada67402f94.png)
 
+<img width="501" alt="Full Method" src="https://user-images.githubusercontent.com/13616352/110307606-11cc6b00-803a-11eb-95f2-b40b173af649.png">
 
-![Full Method2](https://user-images.githubusercontent.com/13616352/110276684-a4efab80-800e-11eb-8e73-4facf417ab52.png)
 
 ## 提醒
 
