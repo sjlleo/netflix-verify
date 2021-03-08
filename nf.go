@@ -10,9 +10,11 @@ import (
 	"strconv"
 	"strings"
 	"time"
+	"flag"
 )
 
 const Netflix = "https://www.netflix.com/title/"
+var method = flag.String("method","","模式选择(full/lite)")
 
 func RequestIP(requrl string, ip string) string {
 	if ip == "" {
@@ -92,7 +94,7 @@ func UnblockTest(MoiveID int, ip string) bool {
 func ShellPrinter(Num int) {
 	switch Num {
 	case 0:
-		fmt.Println("** NetFlix 解锁检测小工具 v2.5 By \033[1;36m@sjlleo\033[0m **")
+		fmt.Println("** NetFlix 解锁检测小工具 v2.51 By \033[1;36m@sjlleo\033[0m **")
 		break
 	case 1:
 		fmt.Println("\033[0;33mNetFlix不为您测试的出口IP提供服务\033[0m")
@@ -148,6 +150,9 @@ func main() {
 	var NonSelfMadeAvailableID = 70143836
 
 	dns := "www.netflix.com"
+	
+	flag.Parse()
+	
 
 	// 解析ip地址
 	ns, err := net.LookupHost(dns)
@@ -173,6 +178,12 @@ func main() {
 
 	ShellPrinter(0)
 
+	if (*method == "full") {
+		fmt.Println("\033[0;35m模式：详细信息模式\033[0m")
+	} else {
+		fmt.Println("\033[0;35m模式：简洁信息模式\033[0m")
+	}
+
 	// 拼接非自制剧的URL
 	testURL := Netflix + strconv.Itoa(NonSelfMadeAvailableID)
 	ipv4CountryCode := RequestIP(testURL, ipv4)
@@ -193,18 +204,28 @@ func main() {
 			//检测该IP所在的地区是否支持NF
 			if UnblockTest(areaAvailableID, ipv4) {
 				//所在地区支持NF
-				ShellPrinter(2)
-				ShellPrinter(7)
-				//检测是否支持自制剧
+				if (*method == "full") {
+					ShellPrinter(2)
+					ShellPrinter(7)
+				}
+				//检测是否支持自制
 				if UnblockTest(SelfMadeAvailableID, ipv4) {
 					//支持自制剧
-					ShellPrinter(5)
-					ShellPrinter(8)
+					if (*method == "full"){
+						ShellPrinter(5)
+						ShellPrinter(8)
+						ShellPrinter(10)
+						fmt.Println("\n\033[1;34m判断结果：不支持Netflix解锁")
+						testURL2 := Netflix + strconv.Itoa(SelfMadeAvailableID)
+						ipv4CountryCode2 := RequestIP(testURL2, ipv4)
+						fmt.Println("\033[0;36mNF库识别的IP地域信息：\033[1;36m" + FindCountry(ipv4CountryCode2) + "区("+ strings.ToUpper(strings.Split(ipv4CountryCode2,"-")[0]) +") NetFlix 非原生IP\033[0m")
+					} else {
+						fmt.Println("\033[0;33m您的出口IP不能解锁Netflix，仅支持自制剧的观看\033[0m")
+					}
 				} else {
 					//不支持自制剧
 					ShellPrinter(6)
 				}
-				ShellPrinter(10)
 			} else {
 				//所在地区不支持NF
 				ShellPrinter(1)
@@ -212,12 +233,17 @@ func main() {
 
 		} else {
 			//如果支持非自制剧的解锁，则直接跳过自制剧的解锁
-			ShellPrinter(2)
-			ShellPrinter(7)
-			ShellPrinter(5)
-			ShellPrinter(8)
-			ShellPrinter(9)
-			fmt.Println("\033[0;36m原生IP地域解锁信息：\033[1;36m" + FindCountry(ipv4CountryCode) + "区 NetFlix\033[0m")
+			if (*method == "full") {
+				ShellPrinter(2)
+				ShellPrinter(7)
+				ShellPrinter(5)
+				ShellPrinter(8)
+				ShellPrinter(9)
+				fmt.Println("\n\033[1;34m判断结果：完整支持Netflix解锁")
+			} else {
+				fmt.Println("\033[0;32m您的出口IP完整解锁Netflix，支持非自制剧的观看\033[0m")
+			}
+			fmt.Println("\033[0;36m原生IP地域解锁信息：\033[1;36m" + FindCountry(ipv4CountryCode) + "区("+ strings.ToUpper(strings.Split(ipv4CountryCode,"-")[0]) +") NetFlix 原生IP\033[0m")
 		}
 	}
 
@@ -227,27 +253,59 @@ func main() {
 			fmt.Print("\n")
 		}
 		ShellPrinter(4)
-		if strings.Contains(ipv6CountryCode, "Ban") {
+		//如果反馈为Ban，那么进一步检测是否支持Netflix地区解锁
+		if strings.Contains(ipv4CountryCode, "Ban") {
+			//检测该IP所在的地区是否支持NF
 			if UnblockTest(areaAvailableID, ipv6) {
-				ShellPrinter(2)
-				ShellPrinter(7)
+				//所在地区支持NF
+				if (*method == "full") {
+					ShellPrinter(2)
+					ShellPrinter(7)
+				}
+				//检测是否支持自制
 				if UnblockTest(SelfMadeAvailableID, ipv6) {
-					ShellPrinter(5)
-					ShellPrinter(8)
+					//支持自制剧
+					if (*method == "full"){
+						ShellPrinter(5)
+						ShellPrinter(8)
+						ShellPrinter(10)
+						fmt.Println("\n\033[1;34m判断结果：不支持Netflix解锁")
+						testURL62 := Netflix + strconv.Itoa(SelfMadeAvailableID)
+						ipv6CountryCode2 := RequestIP(testURL62, ipv6)
+						fmt.Println("\033[0;36mNF库识别的IP地域信息：\033[1;36m" + FindCountry(ipv6CountryCode2) + "区("+ strings.ToUpper(strings.Split(ipv6CountryCode2,"-")[0]) +") NetFlix 非原生IP\033[0m")
+					} else {
+						fmt.Println("\033[0;33m您的出口IP不能解锁Netflix，仅支持自制剧的观看\033[0m")
+					}
 				} else {
+					//不支持自制剧
 					ShellPrinter(6)
 				}
-				ShellPrinter(10)
 			} else {
+				//所在地区不支持NF
 				ShellPrinter(1)
 			}
+
 		} else {
-			ShellPrinter(2)
-			ShellPrinter(7)
-			ShellPrinter(5)
-			ShellPrinter(8)
-			ShellPrinter(9)
-			fmt.Println("\033[0;36m原生IP地域解锁信息：\033[1;36m" + FindCountry(ipv6CountryCode) + "区 NetFlix\033[0m")
+			//如果支持非自制剧的解锁，则直接跳过自制剧的解锁
+			if (*method == "full") {
+				ShellPrinter(2)
+				ShellPrinter(7)
+				ShellPrinter(5)
+				ShellPrinter(8)
+				ShellPrinter(9)
+				fmt.Println("\n\033[0;34m判断结果：完整支持Netflix解锁")
+			} else {
+				fmt.Println("\033[0;32m您的出口IP完整解锁Netflix，支持非自制剧的观看\033[0m")
+			}
+			fmt.Println("\033[0;36m原生IP地域解锁信息：\033[1;36m" + FindCountry(ipv6CountryCode) + "区("+ strings.ToUpper(strings.Split(ipv6CountryCode,"-")[0]) +") NetFlix 原生IP\033[0m")
+		}
+	} else {
+		if (*method == "full"){
+			if NextLineSignal {
+				fmt.Print("\n")
+			}
+			ShellPrinter(4)
+			fmt.Println("\033[1;31m本机不支持IPV6的访问\033[0m")
 		}
 	}
 }
