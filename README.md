@@ -51,7 +51,7 @@
 
 ### 简约模式
 
-![Lite Method]("https://user-images.githubusercontent.com/13616352/110296238-12123980-802d-11eb-9a93-7508ea1f8a5c.png")
+![Lite Method](https://user-images.githubusercontent.com/13616352/110296238-12123980-802d-11eb-9a93-7508ea1f8a5c.png)
 
 
 ![Lite Method2](https://user-images.githubusercontent.com/13616352/110276620-7e317500-800e-11eb-9a21-3800b9c687c5.png)
