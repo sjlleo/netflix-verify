@@ -15,6 +15,8 @@
 
 1. 感谢 [@CoiaPrant](https://github.com/CoiaPrant) 指出对于地域检测更简便的方法
 2. 感谢 [@XmJwit](https://github.com/XmJwit) 解决了IPV6 Only VPS无法下载脚本的问题
+3. 感谢 [@samleong123](https://github.com/samleong123) 指出了文档的解释缺陷
+4. 感谢 [@ymcoming](https://github.com/ymcoming) 指出了IPv6的检测Bug
 
 ## 功能实现
 
@@ -39,7 +41,7 @@
 
 #### 2. 懒人一键运行包（使用编译好的二进制文件执行本小程序）
 
-**Github主站下载链接:**
+**Github主站下载链接（IPv6 Only的VPS请使用下方的CDN链接）:**
   
   `wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/2.52/nf_2.52_linux_amd64 && chmod +x nf && clear && ./nf`
 
