@@ -60,7 +60,7 @@
 
 ### 发烧模式
 
-![2021-03-16-8.39.23.png](https://img.leo.moe/images/2021/03/16/2021-03-16-8.39.23.png)
+<img width="600" alt="Full Method" src="https://img.leo.moe/images/2021/03/16/2021-03-16-8.39.23.png">
 
 <img width="600" alt="Full Method" src="https://user-images.githubusercontent.com/13616352/110307606-11cc6b00-803a-11eb-95f2-b40b173af649.png">
 
