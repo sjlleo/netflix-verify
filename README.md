@@ -49,7 +49,7 @@
 
 **CDN下载链接(此CDN支持IPV6网络，IPv6 Only的VPS请使用本下载链接):**
 
-  `wget -O nf https://cdn.jsdelivr.net/gh/sjlleo/netflix-verify/CDNRelease/nf_2.6_linux_amd64 && chmod +x nf && clear && ./nf`
+  `wget -O nf https://cdn.jsdelivr.net/gh/sjlleo/netflix-verify/CDNRelease/nf_2.60_linux_amd64 && chmod +x nf && clear && ./nf`
 
 ## 效果演示图
 
