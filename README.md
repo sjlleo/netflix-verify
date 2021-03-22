@@ -60,15 +60,10 @@
 
 <img width="430" alt="Lite Method" src="https://user-images.githubusercontent.com/13616352/110296950-e479c000-802d-11eb-9837-e23392860b07.png">
 
-<img width="430" alt="Lite Method2" src="https://user-images.githubusercontent.com/13616352/110298285-67e7e100-802f-11eb-8ca8-7f7045cfddca.png">
-
 
 ### 发烧模式
 
 <img width="600" alt="Full Method" src="https://img.leo.moe/images/2021/03/16/2021-03-16-8.39.23.png">
-
-<img width="600" alt="Full Method" src="https://user-images.githubusercontent.com/13616352/110307606-11cc6b00-803a-11eb-95f2-b40b173af649.png">
-
 
 ## 提醒
 
