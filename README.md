@@ -13,6 +13,9 @@
 
 在`v2.6`版本中提供了自定义解锁功能，运行`./nf -custom 想测试的电影ID号`即可查看特定影片是否在该网络上解锁
 
+![image](https://user-images.githubusercontent.com/13616352/112000509-06f4f880-8b59-11eb-8353-11268b789bde.png)
+
+
 ## 鸣谢
 
 1. 感谢 [@CoiaPrant](https://github.com/CoiaPrant) 指出对于地域检测更简便的方法
