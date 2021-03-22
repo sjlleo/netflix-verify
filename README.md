@@ -11,6 +11,8 @@
 * 运行`./nf -method full`将专门为发烧友准备的利器，显示更全面的结果
 * 而普通用户当以缺省参数运行`./nf`或者是`./nf -method lite`将显示更轻量级的结果，显示更加友好
 
+在`v.2.6`版本中提供了自定义解锁功能，运行`./nf -custom 想测试的电影ID号`即可查看特定影片是否在该网络上解锁
+
 ## 鸣谢
 
 1. 感谢 [@CoiaPrant](https://github.com/CoiaPrant) 指出对于地域检测更简便的方法
@@ -43,11 +45,11 @@
 
 **Github主站下载链接（IPv6 Only的VPS请使用下方的CDN链接）:**
   
-  `wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/2.52/nf_2.52_linux_amd64 && chmod +x nf && clear && ./nf`
+  `wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/2.6/nf_2.6_linux_amd64 && chmod +x nf && clear && ./nf`
 
 **CDN下载链接(此CDN支持IPV6网络，IPv6 Only的VPS请使用本下载链接):**
 
-  `wget -O nf https://cdn.jsdelivr.net/gh/sjlleo/netflix-verify/CDNRelease/nf_2.52_linux_amd64 && chmod +x nf && clear && ./nf`
+  `wget -O nf https://cdn.jsdelivr.net/gh/sjlleo/netflix-verify/CDNRelease/nf_2.6_linux_amd64 && chmod +x nf && clear && ./nf`
 
 ## 效果演示图
 
