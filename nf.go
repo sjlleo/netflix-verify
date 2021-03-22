@@ -96,37 +96,26 @@ func ShellPrinter(Num int) {
 	switch Num {
 	case 0:
 		fmt.Println("** NetFlix 解锁检测小工具 v2.6 By \033[1;36m@sjlleo\033[0m **")
-		break
 	case 1:
 		fmt.Println("\033[0;33mNetFlix不为您测试的出口IP提供服务\033[0m")
-		break
 	case 2:
 		fmt.Println("\033[0;32mNetFlix在您测试的出口IP所在的地区提供服务，宽松版权的自制剧可以解锁\033[0m")
-		break
 	case 3:
 		fmt.Println("\033[0;36m[IPv4测试]\033[0m")
-		break
 	case 4:
 		fmt.Println("\033[0;36m[IPv6测试]\033[0m")
-		break
 	case 5:
 		fmt.Println("\033[0;32m支持解锁全部的自制剧\033[0m")
-		break
 	case 6:
 		fmt.Println("\033[0;31m不支持解锁带有强版权的自制剧\033[0m")
-		break
 	case 7:
 		fmt.Println("->> 正在检查是否完整支持自制剧 <<-")
-		break
 	case 8:
 		fmt.Println("->> 正在检查支持的NetFlix地区 <<-")
-		break
 	case 9:
 		fmt.Println("\033[0;32m支持解锁非自制剧\033[0m")
-		break
 	case 10:
 		fmt.Println("\033[0;31m不支持解锁非自制剧\033[0m")
-		break
 	}
 
 }
