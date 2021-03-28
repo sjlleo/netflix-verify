@@ -65,11 +65,6 @@
 
 <img width="430" alt="Lite Method" src="https://user-images.githubusercontent.com/13616352/110296950-e479c000-802d-11eb-9837-e23392860b07.png">
 
-
-### 发烧模式
-
-<img width="600" alt="Full Method" src="https://img.leo.moe/images/2021/03/16/2021-03-16-8.39.23.png">
-
 ## 提醒
 
 在观看Netflix影片，有一种情况极少遇到，那就是“**半解锁**”，可以观看一部分的非自制剧，却不会显示任何地域排行榜有关的信息。
