@@ -51,15 +51,15 @@
 
 ## 使用方法
 
-#### 1. 部署 `golang` 环境，执行 `go run nf.go` 运行本小应用
+1. 部署 `golang` 环境，执行 `go run nf.go` 运行本小应用
 
-#### 2. 懒人一键运行包（使用编译好的二进制文件执行本小程序）
+2. 懒人一键运行包（使用编译好的二进制文件执行本小程序）
 
-**Github主站下载链接（IPv6 Only的VPS请使用下方的CDN链接）:**
+Github主站下载链接（支持IPv4网络的机器）:
   
   `wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/2.6/nf_2.6_linux_amd64 && chmod +x nf && clear && ./nf`
 
-**CDN下载链接(此CDN支持IPV6网络，IPv6 Only的VPS请使用本下载链接):**
+CDN下载链接(支持双栈or仅支持IPv6网络的机器):
 
   `wget -O nf https://cdn.jsdelivr.net/gh/sjlleo/netflix-verify/CDNRelease/nf_2.60_linux_amd64 && chmod +x nf && clear && ./nf`
 
