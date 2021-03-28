@@ -55,11 +55,11 @@
 
 2. 懒人一键运行包（使用编译好的二进制文件执行本小程序）
 
-   * Github主站下载链接（支持IPv4网络的机器）:
+   * Github主站下载链接（适用于IPv4网络的机器）:
 
      `wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/2.6/nf_2.6_linux_amd64 && chmod +x nf && clear && ./nf`
 
-   * CDN下载链接(支持双栈or仅支持IPv6网络的机器):
+   * CDN下载链接（通用选项，既适用于有IPv4网络的机器也适用于仅有IPv6网络的机器）:
 
      `wget -O nf https://cdn.jsdelivr.net/gh/sjlleo/netflix-verify/CDNRelease/nf_2.60_linux_amd64 && chmod +x nf && clear && ./nf`
 
