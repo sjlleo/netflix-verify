@@ -4,7 +4,7 @@
 
 在VPS网络正常的情况下，哪怕是双栈网络也可在几秒内快速完成IPv4/IPv6的NF解锁情况判断。
 
-## 其他使用脚本链接
+## 其他实用脚本链接
 
 油管缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 
