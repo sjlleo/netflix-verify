@@ -8,6 +8,11 @@
 
 油管缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 
+## Bug反馈途径
+
+1. 发起一个新的Issue
+2. 加入TG群组：https://t.me/devleo
+
 ## 新特性
 
 在`v2.51`版本中提供了2种不同的模式，将显示完全不同的结果：
