@@ -6,6 +6,8 @@
 
 ## 其他实用脚本链接
 
+DisneyPlus 解锁检测： https://github.com/sjlleo/VerifyDisneyPlus
+
 油管缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 
 ## Bug反馈途径
