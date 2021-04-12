@@ -8,7 +8,7 @@
 
 DisneyPlus 解锁检测： https://github.com/sjlleo/VerifyDisneyPlus
 
-油管缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
+Youtube缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 
 ## Bug反馈途径
 
@@ -30,7 +30,7 @@ DisneyPlus 解锁检测： https://github.com/sjlleo/VerifyDisneyPlus
 
 1. 你们只做Netflix解锁检测，这是不是太少了点? 我看有脚本可以检测多种流媒体。
 
-   我们专注于单种流媒体检测，未来会发布Disney+检测等，但是我们暂时不会发布合集，因为我们的定位是力求检测信息精准，专业，而现在网上很多脚本都是粗略地进行检测，这不符合我们的预期标准。
+   我们专注于单种流媒体检测，但是我们暂时不会发布合集，因为我们的定位是力求检测信息精准、专业，而现在网上很多脚本都是粗略地进行检测，这不符合我们的预期标准。
 
 ## 鸣谢
 
