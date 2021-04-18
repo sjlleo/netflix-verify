@@ -10,7 +10,9 @@ DisneyPlus 解锁检测： https://github.com/sjlleo/VerifyDisneyPlus
 
 Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 
-**Cloudflare Warp 一键添加脚本（[@missuo](https://github.com/missuo)）：https://github.com/missuo/CloudflareWarp**
+**Cloudflare Warp 一键脚本（[@missuo](https://github.com/missuo)）：https://github.com/missuo/CloudflareWarp**
+
+> Cloudflare Warp 一键脚本由missuo同学开发，特此感谢
 
 ## Bug反馈途径
 
