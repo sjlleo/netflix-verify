@@ -68,15 +68,15 @@ Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 
    * Github主站下载链接（适用于IPv4网络的机器）:
 
-     ```shell
-     wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/2.6/nf_2.6_linux_amd64 && chmod +x nf && clear && ./nf
-     ```
+   ```shell
+   wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/2.6/nf_2.6_linux_amd64 && chmod +x nf && clear && ./nf
+   ```
 
    * CDN下载链接（通用选项，既适用于有IPv4网络的机器也适用于仅有IPv6网络的机器）:
 
-     ```shell
-     wget -O nf https://cdn.jsdelivr.net/gh/sjlleo/netflix-verify/CDNRelease/nf_2.60_linux_amd64 && chmod +x nf && clear && ./nf
-     ```
+   ```shell
+   wget -O nf https://cdn.jsdelivr.net/gh/sjlleo/netflix-verify/CDNRelease/nf_2.60_linux_amd64 && chmod +x nf && clear && ./nf
+   ```
 
 ## 效果演示图
 
