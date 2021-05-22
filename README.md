@@ -12,11 +12,11 @@ Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 
 Cloudflare Warp 一键脚本（[@YG-tsj](https://github.com/YG-tsj)）：https://github.com/YG-tsj/Oracle-warp
 
-**特色：非常全面的功能，用户全程无需值守的自动化安装脚本，高级玩家的最爱**
+* **特色：非常全面的功能，用户全程无需值守的自动化安装脚本，高级玩家的最爱**
 
 Cloudflare Warp 一键脚本（[@missuo](https://github.com/missuo)）：https://github.com/missuo/CloudflareWarp
 
-**特色：简洁轻量，适合不想折腾的轻度用户使用**
+* **特色：简洁轻量，适合不想折腾的轻度用户使用**
 
 ## Bug反馈途径
 
