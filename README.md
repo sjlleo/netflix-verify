@@ -12,6 +12,8 @@ Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 
 Cloudflare Warp 一键脚本（[@missuo](https://github.com/missuo)）：https://github.com/missuo/CloudflareWarp
 
+【更全面】Cloudflare Warp 一键脚本（[@YG-tsj]）：https://github.com/YG-tsj/Oracle-warp
+
 ## Bug反馈途径
 
 1. 发起一个新的Issue
