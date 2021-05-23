@@ -34,12 +34,6 @@ Cloudflare Warp 一键脚本（[@missuo](https://github.com/missuo)）：https:/
 
 ![image](https://user-images.githubusercontent.com/13616352/112000509-06f4f880-8b59-11eb-8353-11268b789bde.png)
 
-## FAQ
-
-1. 你们只做Netflix解锁检测，这是不是太少了点? 我看有脚本可以检测多种流媒体。
-
-   我们专注于单种流媒体检测，但是我们暂时不会发布合集，因为我们的定位是力求检测信息精准、专业，而现在网上很多脚本都是粗略地进行检测，这不符合我们的预期标准。
-
 ## 鸣谢
 
 1. 感谢 [@CoiaPrant](https://github.com/CoiaPrant) 指出对于地域检测更简便的方法
