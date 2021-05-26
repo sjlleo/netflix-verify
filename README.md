@@ -66,7 +66,7 @@ Cloudflare Warp 一键脚本（[@missuo](https://github.com/missuo)）：https:/
 
    * Github主站下载链接（适用于IPv4网络的机器）:
    
-   **X86_64 平台**：
+   * **X86_64**：
 
    ```shell
    wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/2.6/nf_2.6_linux_amd64 && chmod +x nf && clear && ./nf
@@ -78,7 +78,7 @@ Cloudflare Warp 一键脚本（[@missuo](https://github.com/missuo)）：https:/
    wget -O nf https://cdn.jsdelivr.net/gh/sjlleo/netflix-verify/CDNRelease/nf_2.60_linux_amd64 && chmod +x nf && clear && ./nf
    ```
    
-   **ARM 平台**：
+   * **ARM64**：
    ```shell
    wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/2.6/nf_2.6_linux_arm64 && chmod +x nf && clear && ./nf
    ```
