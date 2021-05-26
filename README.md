@@ -65,9 +65,16 @@ Cloudflare Warp 一键脚本（[@missuo](https://github.com/missuo)）：https:/
 2. 懒人一键运行包（使用编译好的二进制文件执行本小程序）
 
    * Github主站下载链接（适用于IPv4网络的机器）:
+   
+   X86_64 平台：
 
    ```shell
    wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/2.6/nf_2.6_linux_amd64 && chmod +x nf && clear && ./nf
+   ```
+   
+   ARM 平台：
+   ```shell
+   wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/2.6/nf_2.6_linux_arm64 && chmod +x nf && clear && ./nf
    ```
 
    * CDN下载链接（通用选项，既适用于有IPv4网络的机器也适用于仅有IPv6网络的机器）:
