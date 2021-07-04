@@ -6,21 +6,19 @@
 
 ## 其他实用脚本链接
 
+Ehco 隧道一键管理脚本：https://github.com/sjlleo/ehco.sh
+
 DisneyPlus 解锁检测： https://github.com/sjlleo/VerifyDisneyPlus
 
 Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 
-Cloudflare Warp 一键脚本（[@YG-tsj](https://github.com/YG-tsj)）：https://github.com/YG-tsj/Oracle-warp
+Cloudflare Warp 一键脚本1（[@YG-tsj](https://github.com/YG-tsj)）：https://github.com/YG-tsj/Oracle-warp
 
-* **特色：非常全面的功能，用户全程无需值守的自动化安装脚本，更是高级玩家的最爱**
-
-Cloudflare Warp 一键脚本（[@missuo](https://github.com/missuo)）：https://github.com/missuo/CloudflareWarp
-
-* **特色：简洁轻量，更为适合那些不想折腾的轻度用户使用**
+Cloudflare Warp 一键脚本2（[@missuo](https://github.com/missuo)）：https://github.com/missuo/CloudflareWarp
 
 ## Bug反馈途径
 
-1. 发起一个新的Issue
+1. 发起一个新的`Issue`
 2. 加入TG群组：https://t.me/devleo
 
 ## 新特性
