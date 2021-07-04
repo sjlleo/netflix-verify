@@ -12,7 +12,7 @@ DisneyPlus 解锁检测： https://github.com/sjlleo/VerifyDisneyPlus
 
 Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 
-Cloudflare Warp 一键脚本1（[@YG-tsj](https://github.com/YG-tsj)）：https://github.com/YG-tsj/Oracle-warp
+Cloudflare Warp 一键脚本1（[@P3TERX](https://github.com/P3TERX)）：https://github.com/P3TERX/warp.sh
 
 Cloudflare Warp 一键脚本2（[@missuo](https://github.com/missuo)）：https://github.com/missuo/CloudflareWarp
 
