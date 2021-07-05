@@ -6,6 +6,8 @@
 
 ## 其他实用脚本链接
 
+Ehco 隧道一件配置脚本：https://github.com/sjlleo/ehco.sh
+
 DisneyPlus 解锁检测： https://github.com/sjlleo/VerifyDisneyPlus
 
 Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
