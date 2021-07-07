@@ -12,6 +12,8 @@ Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 
 ## 更多实用脚本
 
+> 脚本排名不分先后，各有其优势，大家各取所需~
+
 #### 隧道一键脚本
 
 1. Ehco 隧道一键配置脚本（[@missuo](https://github.com/missuo)）：https://github.com/missuo/Ehcoo
