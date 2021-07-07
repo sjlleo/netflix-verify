@@ -4,13 +4,17 @@
 
 在VPS网络正常的情况下，哪怕是双栈网络也可在几秒内快速完成IPv4/IPv6的NF解锁情况判断。
 
-## 其他实用脚本链接
-
-Ehco 隧道一件配置脚本：https://github.com/sjlleo/ehco.sh
+## 其他常见流媒体脚本链接
 
 DisneyPlus 解锁检测： https://github.com/sjlleo/VerifyDisneyPlus
 
 Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
+
+## 更多实用脚本
+
+Ehco 隧道一键配置脚本 1（[@missuo](https://github.com/missuo)）：https://github.com/missuo/Ehcoo
+
+Ehco 隧道一件配置脚本 2：https://github.com/sjlleo/ehco.sh
 
 Cloudflare Warp 一键脚本1（[@P3TERX](https://github.com/P3TERX)）：https://github.com/P3TERX/warp.sh
 
