@@ -14,13 +14,19 @@ Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 
 > 脚本排名不分先后，各有其优势，大家各取所需~
 
-#### 隧道一键脚本
+### 网络工具类
+
+#### 一、Ehco 隧道
 
 1. Ehco 隧道一键配置脚本（[@missuo](https://github.com/missuo)）：https://github.com/missuo/Ehcoo
 
 2. Ehco 隧道一键配置脚本 Beta（[@sjlleo](https://github.com/sjlleo)）：https://github.com/sjlleo/ehco.sh
 
-#### Warp一键脚本
+#### 二、Gost 隧道
+
+1. Gost 隧道一键配置脚本（[@KANIKIG](https://github.com/KANIKIG)） ：https://github.com/KANIKIG/Multi-EasyGost 
+
+### Cloudflare Warp类
 
 1. Cloudflare Warp 一键脚本（[@P3TERX](https://github.com/P3TERX)）：https://github.com/P3TERX/warp.sh
 
