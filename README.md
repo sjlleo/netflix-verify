@@ -16,7 +16,7 @@ Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 
 1. Ehco 隧道一键配置脚本（[@missuo](https://github.com/missuo)）：https://github.com/missuo/Ehcoo
 
-2. Ehco 隧道一件配置脚本：https://github.com/sjlleo/ehco.sh
+2. Ehco 隧道一件配置脚本（[@sjlleo](https://github.com/sjlleo)）：https://github.com/sjlleo/ehco.sh
 
 #### Warp一键脚本
 
