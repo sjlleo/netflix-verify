@@ -12,17 +12,17 @@ Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 
 ## 更多实用脚本
 
-### 隧道一键脚本
+#### 隧道一键脚本
 
-Ehco 隧道一键配置脚本 1（[@missuo](https://github.com/missuo)）：https://github.com/missuo/Ehcoo
+1. Ehco 隧道一键配置脚本（[@missuo](https://github.com/missuo)）：https://github.com/missuo/Ehcoo
 
-Ehco 隧道一件配置脚本 2：https://github.com/sjlleo/ehco.sh
+2. Ehco 隧道一件配置脚本：https://github.com/sjlleo/ehco.sh
 
-### Warp一键脚本
+#### Warp一键脚本
 
-Cloudflare Warp 一键脚本1（[@P3TERX](https://github.com/P3TERX)）：https://github.com/P3TERX/warp.sh
+1. Cloudflare Warp 一键脚本（[@P3TERX](https://github.com/P3TERX)）：https://github.com/P3TERX/warp.sh
 
-Cloudflare Warp 一键脚本2（[@missuo](https://github.com/missuo)）：https://github.com/missuo/CloudflareWarp
+2. Cloudflare Warp 一键脚本（[@missuo](https://github.com/missuo)）：https://github.com/missuo/CloudflareWarp
 
 ## Bug反馈途径
 
