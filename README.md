@@ -20,8 +20,6 @@ Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 
 1. Ehco 隧道一键配置脚本（[@missuo](https://github.com/missuo)）：https://github.com/missuo/Ehcoo
 
-2. Ehco 隧道一键配置脚本 Beta（[@sjlleo](https://github.com/sjlleo)）：https://github.com/sjlleo/ehco.sh
-
 #### 二、Gost 隧道
 
 1. Gost 隧道一键配置脚本（[@KANIKIG](https://github.com/KANIKIG)） ：https://github.com/KANIKIG/Multi-EasyGost 
