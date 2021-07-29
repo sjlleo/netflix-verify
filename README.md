@@ -14,6 +14,12 @@ Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 
 > 脚本排名不分先后，各有其优势，大家各取所需~
 
+### 各类脚本快捷镜像托管
+
+#### KEA 可爱萌镜像托管站：[KEA.MOE](https://kea.moe)
+
+现在正在收集脚本，如果您的脚本也想被收入，请联系 [@sjlleo](https://t.me/sjlleo)
+
 ### 网络工具类
 
 #### 一、Ehco 隧道
