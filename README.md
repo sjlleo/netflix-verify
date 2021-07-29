@@ -18,7 +18,7 @@ Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 
 #### KEA 可爱萌镜像托管站：[KEA.MOE](https://kea.moe)
 
-现在正在收集脚本，如果您的脚本也想被收入，请联系 [@sjlleo](https://t.me/sjlleo)
+我们现在正在收集脚本，如果您的脚本也想被收入，请联系 [@sjlleo](https://t.me/sjlleo)
 
 ### 网络工具类
 
