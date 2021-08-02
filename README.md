@@ -20,6 +20,8 @@ Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 
 我们现在正在收集脚本，如果您的脚本也想被收入，请联系 [@sjlleo](https://t.me/sjlleo)
 
+**Telegram 交流群组：[KEA Source](https://t.me/keamoe)**
+
 ### 网络工具类
 
 #### 一、Ehco 隧道
