@@ -45,7 +45,7 @@ Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 ## Bug反馈途径
 
 1. 发起一个新的`Issue`
-2. 加入TG群组：https://t.me/devleo
+2. 加入TG群组：https://t.me/keamoe
 
 ## 新特性
 
