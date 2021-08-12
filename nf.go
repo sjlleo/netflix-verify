@@ -33,6 +33,7 @@ func RequestIP(requrl string, ip string) string {
 	client := &http.Client{
 		Transport: &http.Transport{
 			TLSClientConfig: &tls.Config{ServerName: host},
+			// goodryb pull
 			Proxy: http.ProxyFromEnvironment,
 		},
 		CheckRedirect: func(req *http.Request, via []*http.Request) error { return http.ErrUseLastResponse },
@@ -96,7 +97,7 @@ func UnblockTest(MoiveID int, ip string) bool {
 func ShellPrinter(Num int) {
 	switch Num {
 	case 0:
-		fmt.Println("** NetFlix 解锁检测小工具 v2.6 By \033[1;36m@sjlleo&Goodryb\033[0m **")
+		fmt.Println("** NetFlix 解锁检测小工具 v2.61 By \033[1;36m@sjlleo&Goodryb\033[0m **")
 	case 1:
 		fmt.Println("\033[0;33mNetFlix不为您测试的出口IP提供服务\033[0m")
 	case 2:
