@@ -33,6 +33,7 @@ func RequestIP(requrl string, ip string) string {
 	client := &http.Client{
 		Transport: &http.Transport{
 			TLSClientConfig: &tls.Config{ServerName: host},
+			Proxy: http.ProxyFromEnvironment,
 		},
 		CheckRedirect: func(req *http.Request, via []*http.Request) error { return http.ErrUseLastResponse },
 		Timeout:       5 * time.Second,
