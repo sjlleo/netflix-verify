@@ -5,10 +5,6 @@
 在VPS网络正常的情况下，哪怕是双栈网络也可在几秒内快速完成IPv4/IPv6的NF解锁情况判断。
 
 
-## 简约模式
-
-<img width="430" alt="Lite Method" src="https://user-images.githubusercontent.com/13616352/110296950-e479c000-802d-11eb-9837-e23392860b07.png">
-
 ## 其他常见流媒体脚本链接
 
 DisneyPlus 解锁检测： https://github.com/sjlleo/VerifyDisneyPlus
@@ -58,6 +54,8 @@ Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 
 * 运行`./nf -method full`将专门为发烧友准备的利器，显示更全面的结果
 * 而普通用户当以缺省参数运行`./nf`或者是`./nf -method lite`将显示更轻量级的结果，显示更加友好
+
+<img width="430" alt="Lite Method" src="https://user-images.githubusercontent.com/13616352/110296950-e479c000-802d-11eb-9837-e23392860b07.png">
 
 在`v2.6`版本中提供了自定义解锁功能，运行`./nf -custom 想测试的电影ID号`即可查看特定影片是否在该网络上解锁
 
