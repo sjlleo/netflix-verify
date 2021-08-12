@@ -97,7 +97,7 @@ func UnblockTest(MoiveID int, ip string) bool {
 func ShellPrinter(Num int) {
 	switch Num {
 	case 0:
-		fmt.Println("** NetFlix 解锁检测小工具 v2.61 By \033[1;36m@sjlleo&Goodryb\033[0m **")
+		fmt.Println("** NetFlix 解锁检测小工具 v2.61 By \033[1;36m@sjlleo\033[0m **")
 	case 1:
 		fmt.Println("\033[0;33mNetFlix不为您测试的出口IP提供服务\033[0m")
 	case 2:
@@ -383,4 +383,5 @@ func main() {
 			fmt.Println("\033[0;31m本机不支持IPv6的访问\033[0m")
 		}
 	}
+	fmt.Println("\033[1;36m感谢Goodryb和每一个正在使用本脚本的你，祝VPS解锁NetFlix非自制剧！\033[0m")
 }
