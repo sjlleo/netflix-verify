@@ -4,6 +4,11 @@
 
 在VPS网络正常的情况下，哪怕是双栈网络也可在几秒内快速完成IPv4/IPv6的NF解锁情况判断。
 
+
+## 简约模式
+
+<img width="430" alt="Lite Method" src="https://user-images.githubusercontent.com/13616352/110296950-e479c000-802d-11eb-9837-e23392860b07.png">
+
 ## 其他常见流媒体脚本链接
 
 DisneyPlus 解锁检测： https://github.com/sjlleo/VerifyDisneyPlus
@@ -84,36 +89,23 @@ Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 
 ## 使用方法
 
-1. 部署 `golang` 环境，执行 `go run nf.go` 运行本小应用
-
-2. 懒人一键运行包（使用编译好的二进制文件执行本小程序）
-
-   * Github主站下载链接（适用于IPv4网络的机器）:
+* Github主站下载链接（适用于IPv4网络的机器）:
    
-   * **X86_64**：
-
-   ```shell
-   wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/2.6/nf_2.6_linux_amd64 && chmod +x nf && clear && ./nf
-   ```
+* **X86_64**：
+```shell
+wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/2.61/nf_2.61_linux_amd64 && chmod +x nf && clear && ./nf
+```
    
-   * CDN下载链接（通用选项，既适用于有IPv4网络的机器也适用于仅有IPv6网络的机器）:
+* CDN Mirror (For IPv6):
 
-   ```shell
-   wget -O nf https://cdn.jsdelivr.net/gh/sjlleo/netflix-verify/CDNRelease/nf_2.60_linux_amd64 && chmod +x nf && clear && ./nf
-   ```
+```shell
+wget -O nf https://cdn.jsdelivr.net/gh/sjlleo/netflix-verify/CDNRelease/nf_2.61_linux_amd64 && chmod +x nf && clear && ./nf
+```
    
-   * **ARM64**：
-   ```shell
-   wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/2.6/nf_2.6_linux_arm64 && chmod +x nf && clear && ./nf
-   ```
-
-
-
-## 效果演示图
-
-### 简约模式
-
-<img width="430" alt="Lite Method" src="https://user-images.githubusercontent.com/13616352/110296950-e479c000-802d-11eb-9837-e23392860b07.png">
+* **ARM64**：
+```shell
+wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/2.61/nf_2.61_linux_arm64 && chmod +x nf && clear && ./nf
+```
 
 ## 提醒
 
