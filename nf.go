@@ -383,5 +383,5 @@ func main() {
 			fmt.Println("\033[0;31m本机不支持IPv6的访问\033[0m")
 		}
 	}
-	fmt.Println("\n\033[1;36m感谢Goodryb和每一个正在使用本脚本的你，祝VPS解锁NetFlix非自制剧！\033[0m")
+	fmt.Println("\n\033[0;36m感谢每一个正在使用本脚本的你，祝解锁NetFlix！\033[0m")
 }
