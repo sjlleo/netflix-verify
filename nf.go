@@ -2,6 +2,7 @@ package main
 
 import (
 	"crypto/tls"
+	"flag"
 	"fmt"
 	"net"
 	"net/http"
@@ -10,12 +11,12 @@ import (
 	"strconv"
 	"strings"
 	"time"
-	"flag"
 )
 
 const Netflix = "https://www.netflix.com/title/"
 var method = flag.String("method","","模式选择(full/lite)")
 var custom = flag.String("custom","","自定义测试NF影片ID\n绝命毒师的ID是70143836")
+var address = flag.String("address", "", "本机公网IP")
 
 func RequestIP(requrl string, ip string) string {
 	if ip == "" {
@@ -35,6 +36,11 @@ func RequestIP(requrl string, ip string) string {
 			TLSClientConfig: &tls.Config{ServerName: host},
 			// goodryb pull
 			Proxy: http.ProxyFromEnvironment,
+			DialContext: (&net.Dialer{
+				LocalAddr: &net.TCPAddr{
+					IP: net.ParseIP(*address),
+				},
+			}).DialContext,
 		},
 		CheckRedirect: func(req *http.Request, via []*http.Request) error { return http.ErrUseLastResponse },
 		Timeout:       5 * time.Second,
