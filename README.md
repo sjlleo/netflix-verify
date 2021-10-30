@@ -11,6 +11,8 @@ DisneyPlus 解锁检测： https://github.com/sjlleo/VerifyDisneyPlus
 
 Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 
+Netflix 订阅检测（Author: [@Quzard](https://github.com/Quzard)）：https://github.com/Quzard/netflix-all-verify
+
 ## 更多实用脚本
 
 > 脚本排名不分先后，各有其优势，大家各取所需~
