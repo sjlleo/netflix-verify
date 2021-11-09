@@ -1,8 +1,9 @@
 # .github/workflows/release.yaml
 
-on: 
-  release:
-    types: [created]
+on:
+  create:
+    tags:
+    - v*
 
 jobs:
   releases-matrix:
