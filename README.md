@@ -8,7 +8,11 @@
 
 NextSSH：[NextSSH.APP](https://nextssh.app)
 
+> 颜值功能集于一身的强大SSH客户端，同时也是macOS用户的最爱，没有之一。
+
 Electerm：[Github Source](https://github.com/electerm/electerm)
+
+> 目前最好的开源SSH客户端，对安全隐私有较高要求的用户首选。
 
 ## 其他常见流媒体脚本链接
 
