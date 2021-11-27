@@ -4,6 +4,11 @@
 
 在VPS网络正常的情况下，哪怕是双栈网络也可在几秒内快速完成IPv4/IPv6的NF解锁情况判断。
 
+## 推荐使用以下SSH客户端以获得良好的使用体验
+
+NextSSH：[NextSSH.APP](https://nextssh.app)
+
+Electerm：[Github Source](https://github.com/electerm/electerm)
 
 ## 其他常见流媒体脚本链接
 
