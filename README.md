@@ -20,45 +20,6 @@ DisneyPlus 解锁检测： https://github.com/sjlleo/VerifyDisneyPlus
 
 Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 
-Netflix 订阅检测（Author: [@Quzard](https://github.com/Quzard)）：https://github.com/Quzard/netflix-all-verify
-
-## 更多实用脚本
-
-> 脚本排名不分先后，各有其优势，大家各取所需~
-
-### 各类脚本快捷镜像托管
-
-#### KEA 可爱萌镜像托管站：[KEA.MOE](https://kea.moe)
-
-我们现在正在收集脚本，如果您的脚本也想被收入，请联系 [@sjlleo](https://t.me/sjlleo)
-
-**Telegram 交流群组：[KEA Source](https://t.me/keamoe)**（欢迎所有玩VPS的爱好者和对国内到国际路由的研究爱好者加入）
-
-### 网络工具类
-
-#### 一、Ehco 隧道
-
-1. Ehco 隧道一键配置脚本（[@missuo](https://github.com/missuo)）：https://github.com/missuo/Ehcoo
-2. Ehco 隧道一键配置脚本 v2（[@sjlleo](https://github.com/sjlleo)）：https://github.com/sjlleo/ehco.sh
-
-#### 二、Gost 隧道
-
-1. Gost 隧道一键配置脚本（[@KANIKIG](https://github.com/KANIKIG)） ：https://github.com/KANIKIG/Multi-EasyGost 
-
-### Cloudflare Warp类
-
-1. Cloudflare Warp 一键脚本（[@P3TERX](https://github.com/P3TERX)）：https://github.com/P3TERX/warp.sh
-
-2. Cloudflare Warp 一键脚本（[@missuo](https://github.com/missuo)）：https://github.com/missuo/CloudflareWarp
-
-3. Cloudflare Warp 一键脚本（[@YG-tsj](https://github.com/YG-tsj)）：https://github.com/YG-tsj/Oracle-warp
-
-
-## Bug反馈途径
-
-1. 发起一个新的`Issue`
-2. 加入TG群组：https://t.me/keamoe
-
 ## 新特性
 
 在`v2.51`版本中提供了2种不同的模式，将显示完全不同的结果：
