@@ -69,7 +69,7 @@ wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/2.61/nf_2.
 wget -O nf https://cdn.jsdelivr.net/gh/sjlleo/netflix-verify/CDNRelease/nf_2.61_linux_amd64 && chmod +x nf && clear && ./nf
 ```
    
-* **ARM64**：
+* **Linux ARM64(macOS的arm版本，请用2.6版本的darwin_arm64)**：
 ```shell
 wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/2.61/nf_2.61_linux_arm64 && chmod +x nf && clear && ./nf
 ```
