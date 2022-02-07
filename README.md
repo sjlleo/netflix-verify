@@ -20,6 +20,14 @@ DisneyPlus 解锁检测： https://github.com/sjlleo/VerifyDisneyPlus
 
 Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 
+## 实用的文章
+
+想知道国内的三大电信运营商和那些国外的电信运营商互联的吗？此文会为您解答这些或许已经困扰您许久的问题。
+
+https://github.com/sjlleo/local-ISPs-to-CN
+
+> 文章依旧在不断更新完善中，如果您也想加入，可以TG来找我哦~ 发现错误也可以提交Issue~
+
 ## 新特性
 
 在`v2.51`版本中提供了2种不同的模式，将显示完全不同的结果：
