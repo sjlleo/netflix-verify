@@ -6,7 +6,7 @@
 
 ## 推荐使用以下SSH客户端以获得良好的使用体验
 
-NextSSH：[NextSSH.APP](https://nextssh.app)
+NextSSH：[Offical Website](https://xzhshch.com/)
 
 > 如果你是Termius的粉丝，那么它绝对是你的菜。颜值功能集于一身的强大SSH客户端，同时也是macOS用户的最爱，没有之一。
 
