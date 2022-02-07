@@ -22,7 +22,7 @@ Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 
 ## 实用的文章
 
-想知道国内的三大电信运营商和那些国外的电信运营商互联的吗？此文会为您解答这些或许已经困扰您许久的问题。
+想知道大陆地区的三大电信运营商和哪些国外的电信运营商互联的吗？此文会为您解答这些或许已经困扰您许久的问题。
 
 https://github.com/sjlleo/local-ISPs-to-CN
 
