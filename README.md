@@ -20,6 +20,12 @@ DisneyPlus 解锁检测： https://github.com/sjlleo/VerifyDisneyPlus
 
 Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 
+## 公益做种
+
+如果您是一个小型中型汉化字幕组，为动漫番剧或为各种纪录片汉化，但是缺少做种的服务器，我可以公益性地赞助您做种。
+
+请加入 BTLEOMOE https://t.me/btleo.moe 我们一起愉快地玩耍吧。（其他非相关人士请勿入哦）
+
 ## 实用的文章
 
 想知道大陆地区的三大电信运营商和哪些国外的电信运营商互联的吗？
