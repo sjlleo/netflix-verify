@@ -30,7 +30,7 @@ Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 
 感兴趣的小伙伴可以加入交流群：https://t.me/bettertrace
 
-![BetterTrace Preview](https://user-images.githubusercontent.com/13616352/165014760-e7a291e7-39ba-4f13-958a-e4482ae9ea5e.png)
+![BetterTrace Preview](https://user-images.githubusercontent.com/13616352/165015089-24468b23-4d83-4621-b9a2-c2e254b2be5d.png)
 
 ## 实用的文章
 
