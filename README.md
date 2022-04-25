@@ -20,11 +20,17 @@ DisneyPlus 解锁检测： https://github.com/sjlleo/VerifyDisneyPlus
 
 Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 
-## 公益做种
+## BetterTrace Insider Channel
 
-如果您是个人/中小型汉化字幕组，为**动漫番剧或为各种纪录片汉化**，但是缺少做种的服务器，我可以公益性地赞助您做种。
+由于`Besttrace`现在限制越来越多，目前少有支持发送`TCP SYN`包的路由跟踪工具（值得一提的是`WorstTrace`也很不错，可惜不支持`TCP SYN`）。
 
-请加入 BTLEOMOE https://t.me/btleomoe 我们一起愉快地玩耍吧。（其他非相关人士请勿入哦）
+所以我自己花了一个月左右的闲暇时间写了一个和 `Besttrace`功能相似的工具，目前暂定命名为`BetterTrace`，目前仍处于开发阶段，依旧有很多功能有待完善，有已知的缺陷和Bug，特此招募感兴趣的小伙伴们前来内测（推荐有`Besttrace`使用经验的用户），暂定人数满10人后暂停招募。
+
+**不过需要注意的是，我不保证这个项目未来是否会正式上线，也可能无法保证这个服务会持续运营下去，建议您可以把它视作一个实验性地尝试。**
+
+感兴趣的小伙伴可以加入交流群：https://t.me/bettertrace
+
+![BetterTrace Preview](https://user-images.githubusercontent.com/13616352/165014760-e7a291e7-39ba-4f13-958a-e4482ae9ea5e.png)
 
 ## 实用的文章
 
