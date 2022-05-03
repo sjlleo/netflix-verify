@@ -16,11 +16,11 @@ Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 
 所以我自己花了一个月左右的闲暇时间写了一个和 `Besttrace`功能相似的工具，目前暂定命名为`NextTrace`，目前仍处于开发阶段，依旧有很多功能有待完善，有已知的缺陷和Bug，特此招募感兴趣的小伙伴们前来内测（推荐有`Besttrace`使用经验的用户），暂定人数满10人后暂停招募。
 
-**不过需要注意的是，我不保证这个项目未来是否会正式上线，也可能无法保证这个服务会持续运营下去，建议您可以把它视作一个实验性地尝试。**
+不过需要注意的是，我不保证这个项目未来是否会正式上线，也可能无法保证这个服务会持续运营下去，建议您可以把它视作一个实验性地尝试。
 
-感兴趣的小伙伴可以加入交流群：https://t.me/nexttrace
+感兴趣的小伙伴可以加入交流群：https://t.me/nexttrace （**目前仅限有Besttrace使用经验的用户**）
 
-![BetterTrace Preview](https://user-images.githubusercontent.com/13616352/165015089-24468b23-4d83-4621-b9a2-c2e254b2be5d.png)
+![NextTrace Preview](https://user-images.githubusercontent.com/13616352/165015089-24468b23-4d83-4621-b9a2-c2e254b2be5d.png)
 
 ## 实用的文章
 
