@@ -4,16 +4,6 @@
 
 在VPS网络正常的情况下，哪怕是双栈网络也可在几秒内快速完成IPv4/IPv6的NF解锁情况判断。
 
-## 推荐使用以下SSH客户端以获得良好的使用体验
-
-NextSSH：[Offical Website](https://xzhshch.com/)
-
-> 如果你是Termius的粉丝，那么它绝对是你的菜。颜值功能集于一身的强大SSH客户端，同时也是macOS用户的最爱，没有之一。
-
-Electerm：[Github Source](https://github.com/electerm/electerm)
-
-> 目前最好的开源SSH客户端，想要的功能一样不少，对安全隐私有较高要求的用户首选。
-
 ## 其他常见流媒体脚本链接
 
 DisneyPlus 解锁检测： https://github.com/sjlleo/VerifyDisneyPlus
