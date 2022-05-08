@@ -10,29 +10,6 @@ DisneyPlus 解锁检测： https://github.com/sjlleo/VerifyDisneyPlus
 
 Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 
-## NextTrace Insider Channel
-
-由于`Besttrace`现在限制越来越多，目前少有支持发送`TCP SYN`包的路由跟踪工具（值得一提的是`WorstTrace`也很不错，可惜不支持`TCP SYN`）。
-
-所以我自己花了一个月左右的闲暇时间写了一个和 `Besttrace`功能相似的工具，目前暂定命名为`NextTrace`，目前仍处于开发阶段，依旧有很多功能有待完善，有已知的缺陷和Bug，特此招募感兴趣的小伙伴们前来内测（推荐有`Besttrace`使用经验的用户），暂定人数满10人后暂停招募。
-
-不过需要注意的是，我不保证这个项目未来是否会正式上线，也可能无法保证这个服务会持续运营下去，建议您可以把它视作一个实验性地尝试。
-
-感兴趣的小伙伴可以加入交流群：https://t.me/nexttrace （**目前仅限有Besttrace使用经验的用户**）
-
-![NextTrace Preview](https://user-images.githubusercontent.com/13616352/165015089-24468b23-4d83-4621-b9a2-c2e254b2be5d.png)
-
-## 实用的文章
-
-想知道大陆地区的三大电信运营商和哪些国外的电信运营商互联的吗？
-
-此文会为您解答这些或许已经困扰您许久的问题。
-
-> 文章依旧在不断更新完善中，如果您也想加入，可以TG来找我哦，发现错误也可以提交Issue
-
-https://github.com/sjlleo/local-ISPs-to-CN
-
-
 ## 新特性
 
 在`v2.51`版本中提供了2种不同的模式，将显示完全不同的结果：
