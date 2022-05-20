@@ -20,7 +20,8 @@ func (v *IPv4Verifier) Execute() *VerifyResponse {
 	response.Type = 1
 
 	if v.IP, err = util.DnsResolver(4); err != nil {
-		return &VerifyResponse{}
+		response.StatusCode = NetworkUnrachable
+		return &response
 	}
 
 	v.unblockTestChan = make(chan UnblockTestResult)
@@ -32,6 +33,9 @@ func (v *IPv4Verifier) Execute() *VerifyResponse {
 
 	for i := 0; i < 3; i++ {
 		switch res := <-v.unblockTestChan; {
+
+		case res.err != nil:
+			response.StatusCode = NetworkUnrachable
 
 		case res.CountryCode != "":
 			switch res.movieID {

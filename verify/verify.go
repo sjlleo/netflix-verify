@@ -5,6 +5,7 @@ var SelfMadeAvailableID = 80197526
 var NonSelfMadeAvailableID = 70143836
 
 const (
+	NetworkUnrachable       = -2
 	AreaUnavailable         = -1
 	AreaAvailable           = 0
 	UnblockSelfMadeMovie    = 1

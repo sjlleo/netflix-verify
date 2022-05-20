@@ -20,7 +20,7 @@ func (v *IPv6Verifier) Execute() *VerifyResponse {
 	response.Type = 2
 
 	if v.IP, err = util.DnsResolver(6); err != nil {
-		response.StatusCode = -2
+		response.StatusCode = NetworkUnrachable
 		return &response
 	}
 
@@ -33,6 +33,9 @@ func (v *IPv6Verifier) Execute() *VerifyResponse {
 
 	for i := 0; i < 3; i++ {
 		switch res := <-v.unblockTestChan; {
+
+		case res.err != nil:
+			response.StatusCode = NetworkUnrachable
 
 		case res.CountryCode != "":
 			switch res.movieID {
