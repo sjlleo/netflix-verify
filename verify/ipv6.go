@@ -35,7 +35,7 @@ func (v *IPv6Verifier) Execute() *VerifyResponse {
 		switch res := <-v.unblockTestChan; {
 
 		case res.err != nil:
-			response.StatusCode = NetworkUnrachable
+			v.unblockStatus = NetworkUnrachable
 
 		case res.CountryCode != "":
 			switch res.movieID {
