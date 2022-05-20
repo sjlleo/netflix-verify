@@ -1,0 +1,29 @@
+on:
+  push: # 每次带有 tag 的 push 候触发
+    tags:
+      - 'v*'
+
+name: Build Release
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master # checkout 代码
+      - uses: actions/setup-go@v2 # 配置 Go 环境
+        with:
+          go-version: "1.18" # 改成自己的版本
+
+      - run: bash .cross_compile.sh
+
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with: # 将下述可执行文件 release 上去
+          draft: false # Release草稿
+          files: |
+            dist/nf_darwin_amd64
+            dist/nf_darwin_arm64
+            dist/nf_linux_amd64
+            dist/nf_linux_arm64
+            dist/nf_linux_mips
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
