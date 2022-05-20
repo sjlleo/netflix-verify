@@ -36,6 +36,27 @@ Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 
 ~~半解锁检测（Deprecated）~~
 
+## 如何食用
+
+使用前，如果您不知道您使用的是什么架构的CPU，请先使用`uname -m`查看
+
+**如果提示`Exec format error`是因为您下载了与您系统架构不对应的二进制文件**
+
+对于`amd64`（`x86_64`），请使用如下命令下载运行
+```bash
+wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/v3.0-Alpha.3/nf_linux_amd64 && chmod +x nf && ./nf
+```
+
+对于`arm64`，请使用如下命令下载运行
+```bash
+wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/v3.0-Alpha.3/nf_linux_arm64 && chmod +x nf && ./nf
+```
+
+对于部分路由器，其SoC使用了`mips`架构，请使用如下命令下载运行
+```bash
+wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/v3.0-Alpha.3/nf_linux_mips && chmod +x nf && ./nf
+```
+
 ## 相关名词解释
 
 1. **不提供服务** - 所在的地区NF没开通，连自制剧也看不了
