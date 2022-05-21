@@ -1,6 +1,6 @@
 # NETFLIX-VERIFY
 
-Latest Version: `v3.0-Alpha`
+最新版本: `v3.0-stable`
 
 流媒体NetFlix解锁检测脚本，使用Go语言编写。
 
@@ -14,9 +14,15 @@ Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 
 ## 新特性
 
+**2022/05/21**
+
+添加`custom`影片检测支持，发布 `v3.0` 第一个稳定版
+
 **2022/05/20**
 
-趁着最近有空重构了所有的模块，引入`goroutine`并发机制，提升运行效率
+重构`verify`、`util`、`printer` module，引入`goroutine`并发机制，提升运行效率。
+
+一年前，我在学习`Golang`的时候以研究为目的完成了这个项目，现在是时候抛弃包袱，完整重构了。
 
 ## 指定网卡出口测试
 
@@ -55,17 +61,17 @@ Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 
 对于`amd64`（`x86_64`），请使用如下命令下载运行
 ```bash
-wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/v3.0-Alpha.3/nf_linux_amd64 && chmod +x nf && ./nf
+wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/v3.0/nf_linux_amd64 && chmod +x nf && ./nf
 ```
 
 对于`arm64`，请使用如下命令下载运行
 ```bash
-wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/v3.0-Alpha.3/nf_linux_arm64 && chmod +x nf && ./nf
+wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/v3.0/nf_linux_arm64 && chmod +x nf && ./nf
 ```
 
 对于部分路由器，其SoC使用了`mips`架构，请使用如下命令下载运行
 ```bash
-wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/v3.0-Alpha.3/nf_linux_mips && chmod +x nf && ./nf
+wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/v3.0/nf_linux_mips && chmod +x nf && ./nf
 ```
 
 ## 相关名词解释
