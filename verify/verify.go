@@ -32,6 +32,7 @@ type VerifyResult struct {
 type Config struct {
 	LocalAddr string
 	Custom    string
+	Proxy     string
 }
 
 type VerifyResponse struct {

@@ -78,7 +78,7 @@ func (v *IPv6Verifier) upgradeStatus(status int) {
 func (v *IPv6Verifier) UnblockTest(MoiveID int) {
 
 	testURL := NetflixURL_PREFIX + strconv.Itoa(MoiveID)
-	if reCode, err := util.RequestIP(testURL, v.IP, v.LocalAddr); err != nil {
+	if reCode, err := util.RequestIP(testURL, v.IP, v.LocalAddr, v.Proxy); err != nil {
 		if err.Error() == "Banned" {
 			v.unblockTestChan <- UnblockTestResult{MoiveID, "", nil}
 		} else {
