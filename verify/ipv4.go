@@ -1,6 +1,7 @@
 package verify
 
 import (
+	"log"
 	"strconv"
 
 	"github.com/sjlleo/netflix-verify/util"
@@ -27,28 +28,42 @@ func (v *IPv4Verifier) Execute() *VerifyResponse {
 	v.unblockTestChan = make(chan UnblockTestResult)
 	defer close(v.unblockTestChan)
 
-	go v.UnblockTest(AreaAvailableID)
-	go v.UnblockTest(SelfMadeAvailableID)
-	go v.UnblockTest(NonSelfMadeAvailableID)
+	if v.Custom == "" {
+		go v.UnblockTest(AreaAvailableID)
+		go v.UnblockTest(SelfMadeAvailableID)
+		go v.UnblockTest(NonSelfMadeAvailableID)
 
-	for i := 0; i < 3; i++ {
-		switch res := <-v.unblockTestChan; {
+		for i := 0; i < 3; i++ {
+			switch res := <-v.unblockTestChan; {
 
-		case res.err != nil:
-			v.unblockStatus = NetworkUnrachable
+			case res.err != nil:
+				v.unblockStatus = NetworkUnrachable
 
-		case res.CountryCode != "":
-			switch res.movieID {
-			case AreaAvailableID:
-				v.upgradeStatus(AreaAvailable)
-			case SelfMadeAvailableID:
-				v.upgradeStatus(UnblockSelfMadeMovie)
-			case NonSelfMadeAvailableID:
-				v.upgradeStatus(UnblockNonSelfMadeMovie)
+			case res.CountryCode != "":
+				switch res.movieID {
+				case AreaAvailableID:
+					v.upgradeStatus(AreaAvailable)
+				case SelfMadeAvailableID:
+					v.upgradeStatus(UnblockSelfMadeMovie)
+				case NonSelfMadeAvailableID:
+					v.upgradeStatus(UnblockNonSelfMadeMovie)
+				}
+				response.CountryCode = res.CountryCode
+				response.CountryName = util.CountryCodeToCountryName(res.CountryCode)
+			default:
 			}
+		}
+	} else {
+		if customMovieID, err := strconv.Atoi(v.Custom); err == nil {
+			go v.UnblockTest(customMovieID)
+		}
+		res := <-v.unblockTestChan
+		if res.CountryCode != "" {
+			v.unblockStatus = CustomMovieUnblock
 			response.CountryCode = res.CountryCode
 			response.CountryName = util.CountryCodeToCountryName(res.CountryCode)
-		default:
+		} else {
+			v.unblockStatus = CustomMovieBlock
 		}
 	}
 	response.StatusCode = v.unblockStatus
@@ -63,8 +78,9 @@ func (v *IPv4Verifier) upgradeStatus(status int) {
 
 func (v *IPv4Verifier) UnblockTest(MoiveID int) {
 
-	testURL := util.Netflix + strconv.Itoa(MoiveID)
+	testURL := NetflixURL_PREFIX + strconv.Itoa(MoiveID)
 	if reCode, err := util.RequestIP(testURL, v.IP, v.LocalAddr); err != nil {
+		log.Println(reCode)
 		if err.Error() == "Banned" {
 			v.unblockTestChan <- UnblockTestResult{MoiveID, "", nil}
 		} else {

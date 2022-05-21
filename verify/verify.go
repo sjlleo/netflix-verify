@@ -1,15 +1,19 @@
 package verify
 
-var AreaAvailableID = 80018499
-var SelfMadeAvailableID = 80197526
-var NonSelfMadeAvailableID = 70143836
-
 const (
+	AreaAvailableID        = 80018499
+	SelfMadeAvailableID    = 80197526
+	NonSelfMadeAvailableID = 70143836
+
 	NetworkUnrachable       = -2
 	AreaUnavailable         = -1
 	AreaAvailable           = 0
 	UnblockSelfMadeMovie    = 1
 	UnblockNonSelfMadeMovie = 2
+	CustomMovieBlock        = 3
+	CustomMovieUnblock      = 4
+
+	NetflixURL_PREFIX = "https://www.netflix.com/title/"
 )
 
 type Verify interface {
