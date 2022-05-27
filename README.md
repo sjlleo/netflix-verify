@@ -24,6 +24,10 @@ Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 
 一年前，我在学习`Golang`的时候以研究为目的完成了这个项目，现在是时候抛弃包袱，完整重构了。
 
+## 编译脚本
+
+编译脚本来自于 [@missuo](https://github.com/missuo) 同学的修改版，在从特表感谢~
+
 ## 指定网卡出口测试
 
 感谢 @caobug
