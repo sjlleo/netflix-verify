@@ -65,12 +65,12 @@ Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
 
 对于`amd64`（`x86_64`），请使用如下命令下载运行
 ```bash
-wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/v3.0/nf_linux_amd64 && chmod +x nf && ./nf
+wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/v3.1.0/nf_linux_amd64 && chmod +x nf && ./nf
 ```
 
 对于`arm64`，请使用如下命令下载运行
 ```bash
-wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/v3.0/nf_linux_arm64 && chmod +x nf && ./nf
+wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/v3.1.0/nf_linux_arm64 && chmod +x nf && ./nf
 ```
 
 对于部分路由器，其SoC使用了`mips`架构，请使用如下命令下载运行
