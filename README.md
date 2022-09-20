@@ -8,9 +8,15 @@
 
 ## 其他常见流媒体脚本链接
 
-DisneyPlus 解锁检测： https://github.com/sjlleo/VerifyDisneyPlus
+可以试试 [@lmc999](https://github.com/lmc999) 的全能脚本，基本包含所有你能用到的流媒体了
 
-Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck
+https://github.com/lmc999/RegionRestrictionCheck
+
+其他，之前学 Go 的时候随便写写的，~~现在再回去看想钻到洞里去~~
+
+~~DisneyPlus 解锁检测： https://github.com/sjlleo/VerifyDisneyPlus~~
+
+~~Youtube 缓存节点、地域信息检测：https://github.com/sjlleo/TubeCheck~~
 
 ## 新特性
 
@@ -75,7 +81,7 @@ wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/v3.1.0/nf_
 
 对于部分路由器，其SoC使用了`mips`架构，请使用如下命令下载运行
 ```bash
-wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/v3.0/nf_linux_mips && chmod +x nf && ./nf
+wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/v3.1.0/nf_linux_mips && chmod +x nf && ./nf
 ```
 
 ## 相关名词解释
